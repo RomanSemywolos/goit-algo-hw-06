@@ -62,8 +62,6 @@ subway.add_edges_from(
     ]
 )
 
-pos = nx.circular_layout(subway)
-
 def show_graph(graph, title="Graph"):
     pos = nx.circular_layout(graph)
     nx.draw(

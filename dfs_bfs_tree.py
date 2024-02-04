@@ -34,6 +34,9 @@ end = "Hydropark"
 dfs_tree = dfs_paths(subway, start, end)
 bfs_tree = bfs_paths(subway, start, end)
 
+print(f"dfs tree: {dfs_tree}\n")
+print(f"bfs tree: {bfs_tree}\n")
+
 dfs_tree = nx.dfs_tree(subway, source="Heroiv Dnipra")
 bfs_tree = nx.bfs_tree(subway, source="Heroiv Dnipra")
 
